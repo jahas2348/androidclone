@@ -1,0 +1,100 @@
+@import url("fonts/AndroidEuclid/stylesheet.css/stylesheet.css");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Euclid Circular A', sans-serif;
+}
+
+/* Header Style Starts Here */
+
+.header-flex{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 10px;
+}
+.logo{
+  margin-top: 10px;
+  color: white;
+  width: 30%;
+}
+.nav{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  
+}
+.nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 30px;
+  
+}
+.nav ul li a{
+  color: #073042;
+  text-decoration: none;
+  font-family:'Euclid Circular A';
+  font-size: 16px;
+  font-weight: 500; 
+}
+.icon{
+  padding-left: 30px;
+  margin-top: 4px;;
+}
+
+/* Header Style Ends Here */
+
+
+/* Footer Style Starts Here */
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  margin-left: 6%;
+  margin-right: 6%;
+  padding-bottom: 140px;
+  
+}
+.footer-div1{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  flex: 1;
+  padding-right:30px
+}
+
+
+.footer-title{
+  color: #000000;
+  padding-bottom: 10px;
+  border-bottom-color:#c2c2c2;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  font-size: 16px;
+}
+.footer-list{
+  margin-top: 30px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 1em;
+  font-size: 16;
+  font-weight: 500;
+
+}
+.footer-bottom{
+  border-top-color:#c2c2c2;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 100px;
+  background-color: white;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+/* Footer Style Ends Here */
